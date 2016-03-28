@@ -1,0 +1,67 @@
+.menu{
+    height: 36px;
+    margin-bottom: 210px;
+
+    background-color: #085698;
+}
+
+.menu > li{
+    display: block;
+}
+
+.menu > li > a{
+    float: right;
+
+    padding-right: 15px;
+    padding-left: 15px;
+
+    text-decoration: none;
+
+    color: #128aa7;
+    background-color: #085698;
+
+    font-size: 14px;
+    line-height: 36px;
+}
+
+.ola span{
+    text-decoration: underline;
+}
+
+.menu > li > a:hover{
+    color: white;
+    background-color: #4eabda;
+}
+
+.menu .ola .ofertas{
+    margin-right: 20px;
+
+    color: white;
+  }
+
+.ofertas:hover{
+    border-right: solid 1px #51a0da;
+    background-image: url(../img/menu-button-bg.jpg);
+}
+
+.ola:hover{
+    border-right: solid 1px #51a0da;
+    border-left: solid 1px #51a0da;
+    background-image: url(../img/menu-button-bg.jpg);
+}
+
+.ola{
+    margin-right: 20px;
+  }
+
+.menu .ofertas{
+    height: 36px;
+    padding-left: 0px;
+}
+
+.ofertas::after{
+    margin-left: 10px;
+
+    content: "Minhas Ofertas";
+    vertical-align: text-bottom;
+}

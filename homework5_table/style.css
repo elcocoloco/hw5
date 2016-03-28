@@ -1,0 +1,10 @@
+.Mondrian{
+  height: 540px;
+  width: 500px;
+  border-collapse: collapse;
+  border: 1px solid white;
+  }
+
+td{
+  border: 10px solid #000;
+}
